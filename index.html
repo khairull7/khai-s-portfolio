@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Khairul Ikhwan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="assets/img/khrlremove.png" alt="Profile Photo">
+            <h2>Khairul Ikhwan</h2>
+            <p>Web Developer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link" data-target="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-target="about">About</a></li>
+                <li><a href="#" class="nav-link" data-target="certificate">Certificate</a></li>
+                <li><a href="#" class="nav-link" data-target="skills">Skills</a></li>
+                <li><a href="#" class="nav-link" data-target="projects">Projects</a></li>
+                <li><a href="#" class="nav-link" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="content">
+        <section id="home" class="section active">
+            <h1>Hello everyone, I'm Khairul Ikhwan</h1>
+            <p>Student At SMK Wikrama Bogor. I am into <span id="changing-text">Frontend and Backend Development</span>.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/img/khrl1.jpeg" alt="About Photo" class="about-photo">
+                <div class="about-text">
+                    <p>I am a passionate web developer with a keen interest in both front-end and back-end development. I am currently studying at SMK Wikrama Bogor, where I am honing my skills in web technologies and programming.</p>
+                    <p>My journey in web development started when I was introduced to HTML and CSS. Over time, I have expanded my knowledge to include JavaScript, Python, and Django. I enjoy creating responsive and visually appealing websites that provide a great user experience.</p>
+                    <a href="cv.pdf" download class="btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <section id="certificate" class="section">
+            <h2>Certificates</h2>
+            <div class="certificates-container">
+                <img src="assets/img/foto/code1.png" alt="Certificate" class="certificate" id="certificate-1">
+                <div class="carousel-controls">
+                    <button id="prev-cert" class="carousel-btn">Previous</button>
+                    <button id="next-cert" class="carousel-btn">Next</button>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="assets/img/logo/html3d.png" alt="HTML Icon">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/css3d.png" alt="CSS Icon">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/js3d.png" alt="JavaScript Icon">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/python.png" alt="Python Icon">
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/bootstrap3d.png" alt="Bootstrap Icon">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/php3d.png" alt="PHP Icon">
+                    <p>PHP</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/laravel1.png" alt="Laravel Icon">
+                    <p>Laravel</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/mysql.png" alt="Python Icon">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/postman-icon.png" alt="Postman Icon">
+                    <p>Postman</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/pgsql.png" alt="PostgreSQL Icon">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/reactjs.png" alt="Reactjs Icon">
+                    <p>React JS</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/vuejs.png" alt="VueJS Icon">
+                    <p>Vue JS</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/jquery.png" alt="Jquery Icon">
+                    <p>Jquery</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/pythondjango.png" alt="Pythondjango Icon">
+                    <p>Python Django</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/wordpress.png" alt="Wordpress Icon">
+                    <p>Wordpress</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/img/logo/git.png" alt="Git Icon">
+                    <p>Git</p>
+                </div>
+                <!-- Add more skill items as needed -->
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-card" data-description="A web application built with Django for managing inventory. It includes features like user authentication, data visualization, and more.">
+                <img src="assets/img/Project/a.png" alt="Project 1">
+                <h3>Inventory Management System</h3>
+            </div>
+            <div class="project-card" data-description="A personal portfolio website to showcase my skills and projects. Built with HTML, CSS, and JavaScript.">
+                <img src="assets/img/Project/b.png" alt="Project 2">
+                <h3>Portfolio Website</h3>
+            </div>
+            <div class="project-card" data-description="Coming Soon.">
+                <img src="assets/img/Project/cms.jpg" alt="coming-soon-thumb">
+                <h3>Coming Soon</h3>
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <p>Follow me on <a href="https://instagram.com/khaaaairl_" target="_blank" class="btn">Instagram</a></p>
+        </section>
+    </main>
+    <div id="project-description-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="project-description"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Khairul Ikhwan. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

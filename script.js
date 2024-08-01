@@ -10,7 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3000);
 
     // Certificate Carousel
-    const certificates = ["code3.png", "code4.png", "code5.png", "code6.png", "code7.png", "code8.png"];
+    const certificates = ["code2.png","code3.png", "code4.png", "code5.png", "code6.png", "code7.png", "code8.png", "code9.png", "code10.png",
+        "code11.png", "cyberlabs.png", "dqlab1.png", "dqlab2.png", "dqlab3.png", "dqlab4.png", "dqlab5.png", "gensakti.png", "jsfreecodeorg.png",
+        "pemrogramanC.png", "pemrogramanJava.png", "prinsippemrogramanSolid.png", "responsive.png", "sertifikatgameonline.jpg", "sertifcmd.png", 
+        "sertifikat dicoding-1.png", "sertifikat dicoding-2.png", "sertifikat dicoding-3.png", "code1.png", "wantek.png", "zillearn.png", "zillearn2.png",
+        "zillearn3.png", "zillearn4.png", "zillearn5.png", "zillearn6.png"
+    ];
     let currentCertIndex = 0;
 
     const certificateImg = document.querySelector('.certificate');
